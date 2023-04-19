@@ -13,12 +13,25 @@ main {
 }
 
 body {
-  background-color: #0f0f0f;
+  background-color: black;
     overflow-x: hidden;
 }
 
 .windui-window-header {
     height: 1.6rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+::-webkit-scrollbar-thumb {
+  background: #1a46b2; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1a46b2; 
 }
 
 .z-1 {
@@ -29,19 +42,6 @@ body {
 }
 .z-60 {
   z-index: 60;
-}
-.custom-scroll::-webkit-scrollbar {
-  width: 5px;
-}
-.custom-scroll::-webkit-scrollbar-track {
-  background: rgb(0, 0, 0);
-  border-top-right-radius: 0.375rem !important;
-  border-bottom-right-radius: 0.375rem !important;
-  margin-right: 5px !important;
-}
-.custom-scroll::-webkit-scrollbar-thumb {
-  background: var(--500);
-  border-radius: 0.375rem;
 }
 
 .dropdown::-webkit-scrollbar {
@@ -390,22 +390,6 @@ code.embed-code {
   background-size: 100%;
   background-repeat: no-repeat;
   transition: .5s all;
-}
-
-::-webkit-scrollbar-track
-{
-	background-color: rgba(0, 0, 0, .25);
-}
-
-::-webkit-scrollbar
-{
-	width: 5px;
-	background-color: rgba(0, 0, 0, .25);
-}
-
-::-webkit-scrollbar-thumb
-{
-	background-color: var(--600);
 }
 
 .partner-container {

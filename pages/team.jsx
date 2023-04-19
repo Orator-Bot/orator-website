@@ -58,10 +58,10 @@ export default function Partners() {
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
-                  Frezz1ck
+                  Frezziax
                 </h1>
                 <div className="flex items-center mt-1">
-                  <p className="font-normal font-sm">Web Developer</p>
+                  <p className="font-normal font-sm">Side Developer</p>
                 </div>
               </div>
             </div>
