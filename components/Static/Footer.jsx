@@ -29,7 +29,7 @@ export default function Footer() {
               </div>
               <div>
                 <a
-                  href="https://oratorbot.xyz/support"
+                  href="https://discord.gg/TeS3haQ4tT"
                   target="_blank"
                   className="text-white/50 hover:text-white hover:underline transform duration-200"
                 >
@@ -38,7 +38,7 @@ export default function Footer() {
               </div>
               <div>
                 <a
-                  href=" https://oratorbot.xyz/invite"
+                  href=" https://discord.com/oauth2/authorize?client_id=948637316145102868&permissions=2184535104&scope=applications.commands%20bot"
                   target="_blank"
                   className="text-white/50 hover:text-white hover:underline transform duration-200"
                 >
@@ -51,7 +51,7 @@ export default function Footer() {
                 Social
               </p>
               <div>
-                <Link href="https://oratorbot.xyz/support">
+                <Link href="https://discord.gg/TeS3haQ4tT">
                   <a className="text-white/50 hover:text-white hover:underline transform duration-200">
                     <i className={`fa-brands fa-discord`} /> Discord
                   </a>
