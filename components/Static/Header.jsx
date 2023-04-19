@@ -83,7 +83,7 @@ const Header = ({ $, NavItems }) => {
                                 `}
                                 width="48" height="48"
                             />
-                            <p className="invisible md:visible text-xl text-white font-semibold">
+                            <p className="md:visible text-xl text-white font-semibold">
                               <a href="/"><span className="text-amber-400">Orator</span>Bot</a>
                             </p>
                         </div>
