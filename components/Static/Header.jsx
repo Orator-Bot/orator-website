@@ -5,8 +5,8 @@ import { Menu, Transition } from '@headlessui/react';
 import { useTheme } from 'next-themes';
 
 const MobileNavbar = ({ open, setOpen, NavItems }) => {
-    const router = useRouter();
-    return <>
+  const router = useRouter();
+  return <>
         <div onClick={() => setOpen(false)} className={`${open ? '' : 'hidden'} w-full h-full z-50 fixed overflow-none top-0 backdrop-blur-sm lg:hidden`} />
         
         <div className={`transform ${open ? '' : 'translate-x-full'} transition-all duration-300 bg-black bg-opacity-90 text-white w-80 fixed rounded-l-xl z-60 right-0 top-0 h-full lg:translate-x-full`}>
@@ -17,6 +17,7 @@ const MobileNavbar = ({ open, setOpen, NavItems }) => {
                         <img width="32" className="rounded-full icon-glow" src="/img/logo.png" />
                         <p className=" font-extrabold ml-1 text-2xl">Orator Bot</p>
                     </div>
+                    <button onClick={() => setOpen(!open)}><i className="cursor-pointer fa fa-times text-xl mr-2" /></button>
                 </div>
                 {NavItems.filter(a => a.link).map((item, itemIndex) => (
                     <Link href={item.href} key={itemIndex}>
@@ -37,41 +38,41 @@ const MobileNavbar = ({ open, setOpen, NavItems }) => {
     </>
 }
 const Header = ({ $, NavItems }) => {
-    const [open, setOpen] = useState(false);
-    const [colors, setColors] = useState(false);
-    const [isDiscovered, setIsDiscovered] = useState(false);
-    const router = useRouter();
-    const { theme, setTheme } = useTheme();
+  const [open, setOpen] = useState(false);
+  const [colors, setColors] = useState(false);
+  const [isDiscovered, setIsDiscovered] = useState(false);
+  const router = useRouter();
+  const { theme, setTheme } = useTheme();
 
-    const colorsThemes = [
-        { id: 'violet', color: 'violet', label: 'Violet' },
-        { id: 'blue', color: 'blue', label: 'Sky' },
-        { id: 'emerald', color: 'emerald', label: 'Emerald' },
-        { id: 'rose', color: 'rose', label: 'Rose' },
-        { id: 'amber', color: 'amber', label: 'Amber' },
+  const colorsThemes = [
+    { id: 'violet', color: 'violet', label: 'Violet' },
+    { id: 'blue', color: 'blue', label: 'Sky' },
+    { id: 'emerald', color: 'emerald', label: 'Emerald' },
+    { id: 'rose', color: 'rose', label: 'Rose' },
+    { id: 'amber', color: 'amber', label: 'Amber' },
     ];
-   
-    const ChangeColor = id => {
-        setTheme(id);
-        setIsDiscovered(true);
-    }
-    
-    const [hue, setHue] = useState("");
-    const [banner, setBanner] = useState(false);
-    useEffect(() => {
-        if (typeof localStorage == "undefined") return;
-        const banner = localStorage.getItem("$Award_close_banner");
-        if (!banner) setBanner(true);
-        const theme = localStorage.getItem("theme");
-        if (theme === "violet") setHue("hue-rotate-[230deg]");
-        if (theme === "blue") setHue("hue-rotate-[180deg]");
-        if (theme === "emerald") setHue("hue-rotate-[70deg]");
-        if (theme === "rose") setHue("hue-rotate-[330deg]");
-        if (theme === "amber") setHue("");
-    }, []);
-    
-    return (
-        <>
+
+  const ChangeColor = id => {
+    setTheme(id);
+    setIsDiscovered(true);
+  }
+
+  const [hue, setHue] = useState("");
+  const [banner, setBanner] = useState(false);
+  useEffect(() => {
+    if (typeof localStorage == "undefined") return;
+    const banner = localStorage.getItem("$Award_close_banner");
+    if (!banner) setBanner(true);
+    const theme = localStorage.getItem("theme");
+    if (theme === "violet") setHue("hue-rotate-[230deg]");
+    if (theme === "blue") setHue("hue-rotate-[180deg]");
+    if (theme === "emerald") setHue("hue-rotate-[70deg]");
+    if (theme === "rose") setHue("hue-rotate-[330deg]");
+    if (theme === "amber") setHue("");
+  }, []);
+
+  return (
+    <>
             <header>
                 <div className="max-w-7xl px-5 mx-auto py-5 flex items-center justify-between">
                     <div className="flex items-center space-x-6">
@@ -128,7 +129,7 @@ const Header = ({ $, NavItems }) => {
                                 <Menu.Button>
                                     <div onClick={() => setColors(!colors)} className="bg-gradient-to-tl from-amber-500 to-amber-700 text-white w-11 h-11 rounded-xl hover:opacity-80 transition-all duration-200 relative">
                                         <div className="flex w-full h-full items-center justify-center">
-                                            <i className="far fa-swatchbook text-zin-900" />
+                                            
                                             {!isDiscovered && <>
                                                 <div className="absolute animate-ping -top-0.5 -right-0.5 w-3 h-3 bg-gradient-to-br from-red-600 to-red-700 rounded-full" />
                                                 <div className="absolute -top-0.5 -right-0.5 w-3 h-3 bg-gradient-to-br from-red-600 to-red-700 rounded-full" />
@@ -177,7 +178,7 @@ const Header = ({ $, NavItems }) => {
             
             <MobileNavbar open={open} setOpen={setOpen} NavItems={NavItems} Menu={() => setOpen(!open)} />
         </>
-    );
+  );
 };
 
 export default Header;
