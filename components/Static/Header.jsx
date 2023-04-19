@@ -7,6 +7,9 @@ import { useTheme } from 'next-themes';
 const MobileNavbar = ({ open, setOpen, NavItems }) => {
     const router = useRouter();
     return <>
+        <div onClick={() => setOpen(false)} className={`${open ? '' : 'hidden'} w-full h-full z-50 fixed overflow-none top-0 backdrop-blur-sm lg:hidden`} />
+        
+        <div className={`transform ${open ? '' : 'translate-x-full'} transition-all duration-300 bg-black bg-opacity-90 text-white w-80 fixed rounded-l-xl z-60 right-0 top-0 h-full lg:translate-x-full`}>
             <div className="relative w-full h-full">
 
                 <div className="flex justify-between border-b border-white/20 items-center px-5 py-4">
@@ -14,7 +17,6 @@ const MobileNavbar = ({ open, setOpen, NavItems }) => {
                         <img width="32" className="rounded-full icon-glow" src="/img/logo.png" />
                         <p className=" font-extrabold ml-1 text-2xl">Orator Bot</p>
                     </div>
-                    <button onClick={() => setOpen(!open)}><i className="cursor-pointer fa fa-times text-xl mr-2" /></button>
                 </div>
                 {NavItems.filter(a => a.link).map((item, itemIndex) => (
                     <Link href={item.href} key={itemIndex}>
