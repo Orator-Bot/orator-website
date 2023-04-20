@@ -25,13 +25,13 @@ export default function AwardApp({ Component, pageProps }) {
       activeIcon: "fa fa-home",
       href: "/",
     },
-    // {
-    //   link: true,
-    //   name: "Commands",
-    //   icon: "fa fa-list-alt",
-    //   activeIcon: "fa fa-list-alt",
-    //   href: "/commands",
-    // },
+    {
+      link: true,
+      name: "Commands",
+      icon: "fa fa-list-alt",
+      activeIcon: "fa fa-list-alt",
+      href: "/commands",
+    },
     {
       link: true,
       name: "Support",
@@ -63,7 +63,7 @@ export default function AwardApp({ Component, pageProps }) {
   ]
 
   return (
-    <ThemeProvider defaultTheme='violet'>
+    <ThemeProvider defaultTheme='blue'>
     <div className="h-screen relative border-t-2 border-blue-600">
       <div
         className="bg-gradient-to-b z-10 opacity-[25%] absolute top-0 w-full from-blue-600 to-transparent"
@@ -71,7 +71,7 @@ export default function AwardApp({ Component, pageProps }) {
       />
       <Head>
         <title>
-          Orator Bot
+          Orator | Discord bot
         </title>
       </Head>
       <main className="transition-all duration-200 z-10 absolute inset-0 px-5 h-screen max-w-7xl w-full mx-auto">
