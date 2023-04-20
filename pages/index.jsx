@@ -12,7 +12,7 @@ export default function Index() {
         <p className="animateHeader text-3xl font-bold text-center text-white">
           Orator Bot
         </p>
-        <p className="animateHeader text-white text-opacity-50 text-center mt-6 text-md">
+        <p className="animateHeader text-white text-opacity-50 text-center mt-6 text-sm lg:text-md">
           Hi there, I'm a text to speech bot designed to make your discord experience more accessible and engaging. Whether your a gamer,
           a student or just looking for a new way to communicate with friends and family, I'm here to help. My advanced voice recognition
           technology allows me to convert any text message into clear, natural sounding speech in a matter of seconds. With my easy to use
