@@ -91,7 +91,7 @@ const Header = ({ $, NavItems }) => {
                             {NavItems.filter(a => a.link).map((item, itemIndex) => (
                                 <li key={itemIndex}>
                                     <Link href={item.href} >
-                                        <a className={`border-b-2 ${router.asPath === item.href ? 'text-blue-500 border-blue-500' : 'border-black/0 text-white/75 hover:text-white'} transition-all duration-200 font-medium pb-3`}>
+                                        <a className={` ${router.asPath === item.href ? 'text-white' : 'border-black/0 text-white/75 hover:text-blue-500'} transition-all duration-200 font-medium pb-3`}>
                                             {item.name}
                                         </a>
                                     </Link>
@@ -100,7 +100,7 @@ const Header = ({ $, NavItems }) => {
                             {NavItems.filter(a => !a.link).map((item, itemIndex) => (
                                 <li key={itemIndex}>
                                     <a target="_blank" href={item.href} >
-                                        <div className={`border-b-2 ${router.asPath === item.href ? 'text-blue-500 border-blue-500' : 'border-black/0 text-white/75 hover:text-white'} transition-all duration-200 font-medium`}>
+                                        <div className={`${router.asPath === item.href ? 'text-white' : 'border-black/0 text-white/75 hover:text-blue-500'} transition-all duration-200 font-medium`}>
                                             {item.name}
                                         </div>
                                     </a>
@@ -120,7 +120,7 @@ const Header = ({ $, NavItems }) => {
                                 rounded-md
                                 text-center
                                 lg:hidden
-                                hover:bg-amber-400 hover:bg-opacity-20
+                                hover:bg-blue-400 hover:bg-opacity-30
                         ">
                             <i className={`fa ${open ? 'fa-times' : 'fa-bars'} text-lg`} />
                         </button>
@@ -159,7 +159,6 @@ const Header = ({ $, NavItems }) => {
                                 </Menu.Items>
                             </Transition>
                         </Menu>
-
                     </div>
                 </div>
             </header>

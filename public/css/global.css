@@ -25,7 +25,7 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.982); 
 }
 ::-webkit-scrollbar-thumb {
   background: #1a46b2; 
