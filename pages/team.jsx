@@ -24,7 +24,7 @@ export default function Partners() {
                   RK
                 </h1>
                 <div className="flex items-center mt-1">
-                  <p className="font-normal font-sm">Bot Owner</p>
+                  <p className="font-normal font-sm">Owner</p>
                 </div>
               </div>
             </div>
