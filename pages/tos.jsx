@@ -2,7 +2,7 @@ import Footer from "../components/Static/Footer";
 
 export default function Tos() {
   return (
-    <div className="space-y-7">
+    <div className="space-y-7 p-0 lg:p-6">
       <h2 className="mt-4 text-white font-bold text-2xl">Terms of Services</h2>
       <p className="text-lg text-gray-500 mb-1space-y-10">Created by Orator Team.</p>
       <div className="animateHeader text-white text-opacity-60 mt-5">

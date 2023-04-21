@@ -79,7 +79,7 @@ export default function Partners() {
                   RKN
                 </h1>
                 <div className="flex items-center mt-1">
-                  <p className="font-normal font-sm">Advisor</p>
+                  <p className="font-normal font-sm">Side Developer</p>
                 </div>
               </div>
             </div>

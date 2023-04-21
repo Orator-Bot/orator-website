@@ -89,16 +89,14 @@ export default function Index() {
 
       <div className="flex flex-row w-full h-auto lg:h-56 my-14 lg:my-40 bg-gradient-to-br lg:px-30 from-neutral-900/90  items-center justify-start to-neutral-900/50 rounded-lg p-1 shadow-md">
         <>
-          <div className="lg:mx-4 lg:p-8 p-10 lg:py-16 flex items-center justify-center flex-col text-center w-full lg:w-auto lg:text-left lg:flex-none gap-5">
+          <div className="lg:mx-4 lg:p-8 p-10 lg:py-16 flex items-center justify-center flex-col text-center w-full gap-5">
 
-            <p className="text-2xl text-white font-normal"> <span className="text-blue-500 text-2xl">Orator</span> - Your own text to speech bot</p>
+            <p className="text-2xl text-white font-normal text-center"> <span className="text-blue-500 text-2xl">Orator</span> - Your own text to speech bot</p>
             <p className="text-md text-gray-500 font-medium max-w-2xl text-center">Easy to use Text To Speech Bot with 50+ Language Support, 
             restrictable to particular text channels, and default language for the server can be set.</p>
           </div>
         </>
-        <img src="https://media.discordapp.net/attachments/1076235243071217714/1098608621966856385/image.png" alt=".help" width="450" className="hidden lg:flex rounded-lg translate-x-10 translate-y-0 hover:scale-105 transition-all" />
       </div>
-
     </>
   )
 }
