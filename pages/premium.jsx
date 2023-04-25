@@ -14,12 +14,12 @@ export default function Premium() {
             <div>
             <div className="py-1"></div>
             <h1 className="py-2 animateHeader text-2xl font-bold text-center text-white">Premium Features</h1>
-                <p className="text-gray-300 text-center p-3"> <span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.customvoice</span> - You can set a custom voice of any famous celebrity using this command.</p>
-                <p className="text-gray-300 text-center p-3"> <span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.customtts</span> - use this command to run the custom voice with a text.</p>
-                <p className="text-gray-300 text-center p-3"> <span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.antiswear</span> - you can use this command to prohibit the users to swear or cuss in the vc.</p>
-                <p className="text-gray-300 text-center p-3"> <span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.blacklistword</span> - you can blacklist a set of words to use in your server.</p>
-                <p className="text-gray-300 text-center p-3"> <span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.setpanel</span> - use this to setup a panel on your server to use the commands and TTS </p>                
-                <p className="text-gray-300 text-center p-3"> <span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.setlogs</span> - .setlogs is used to setting up the logs on your server.</p>
+                <p className="text-gray-300 text-center p-3"><span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.customvoice</span> - You can set a custom voice of any famous celebrity using this command.</p>
+                <p className="text-gray-300 text-center p-3"><span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.customtts</span> - use this command to run the custom voice with a text.</p>
+                <p className="text-gray-300 text-center p-3"><span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.antiswear</span> - you can use this command to prohibit the users to swear or cuss in the vc.</p>
+                <p className="text-gray-300 text-center p-3"><span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.blacklistword</span> - you can blacklist a set of words to use in your server.</p>
+                <p className="text-gray-300 text-center p-3"><span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.setpanel</span> - use this to setup a panel on your server to use the commands and TTS </p>                
+                <p className="text-gray-300 text-center p-3"><span className="bg-gray-600 opacity-50 rounded-md px-1 font-mono">.setlogs</span> - .setlogs is used to setting up the logs on your server.</p>
             </div>
             <div className="py-3"></div>
                     <h1 className="py-2 animateHeader text-2xl font-bold text-center text-white">Premium Plans</h1>
