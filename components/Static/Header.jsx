@@ -84,7 +84,7 @@ const Header = ({ $, NavItems }) => {
                                 width="48" height="48"
                             />
                             <p className="md:visible text-xl text-white font-semibold">
-                              <a href="/">Orator Bot</a>
+                              <a href="/">Orator</a>
                             </p> 
                         </div>
                         <ul className="hidden lg:flex items-center space-x-4">

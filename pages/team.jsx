@@ -3,7 +3,7 @@ export default function Partners() {
     <>
       <div className="w-full my-10">
         <div className="flex w-full justify-center">
-          <img width="400" src="/img/bck4.png" />
+          <img width="400" src="/img/bck4.png"/>
         </div>
         <h1 className="py-7 animateHeader text-4xl font-extrabold text-center text-white">
           <i className="fal fa-headphones text-blue-400 mr-2" />
@@ -54,7 +54,7 @@ export default function Partners() {
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://arijit.site/cdn/frezz1ck.jpeg"
+                src="https://media.discordapp.net/attachments/922532013817348096/1100416733992456292/rias.webp"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
@@ -72,7 +72,7 @@ export default function Partners() {
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://images-ext-2.discordapp.net/external/afB8ueYN0QNKTjIJRI1xtyJ3HtxFqo-LFUbGmK09xIE/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/842620032960823327/15966cd2da59a40184efbb91372c523e.webp"
+                src="https://images-ext-1.discordapp.net/external/oJg8hgV6bb8NYwuxOMDLAX2F5Xxv8iP_1qnRPS0VnXI/https/i.imgur.com/DnIonjf.jpeg?width=702&height=702"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">

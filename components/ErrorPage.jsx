@@ -25,7 +25,7 @@ const ErrorPage = ({ code, message }) => {
                 }}
             >
                 {clicked ? <i className="fad fa-spinner-third fa-spin text-white" /> : <><i className='fa fa-arrow-left mr-2' />Go Back</>}
-            </button>
+            </button>   
         </div>
     </>
 }

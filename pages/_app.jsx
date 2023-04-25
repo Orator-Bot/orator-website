@@ -21,27 +21,34 @@ export default function AwardApp({ Component, pageProps }) {
     {
       link: true,
       name: "Home",
-      icon: "fal fa-home",
+      icon: "fa fa-home",
       activeIcon: "fa fa-home",
       href: "/",
     },
     {
       link: true,
-      name: "Commands",
+      name: "Premium",
       icon: "fa fa-list-alt",
       activeIcon: "fa fa-list-alt",
-      href: "/commands",
+      href: "/premium",
     },
     {
       link: true,
-      name: "Support",
+      name: "Team",
+      icon: "fal fa-handshake",
+      activeIcon: "fa fa-handshake",
+      href: "/team",
+    },
+    {
+      link: true,
+      name: "Server",
       icon: "fab fa-discord",
       activeIcon: "fab fa-discord",
       href: "https://discord.gg/TeS3haQ4tT",
     },
     {
       link: true,
-      name: "Add Bot",
+      name: "Invite",
       icon: "fal fa-robot",
       activeIcon: "fab fa-robot",
       href: "https://discord.com/oauth2/authorize?client_id=948637316145102868&permissions=2184535104&scope=applications.commands%20bot",
@@ -53,13 +60,6 @@ export default function AwardApp({ Component, pageProps }) {
       activeIcon: "fa fa-plus",
       href: "https://top.gg/bot/948637316145102868/vote",
     },
-    {
-      link: true,
-      name: "Team",
-      icon: "fal fa-handshake",
-      activeIcon: "fa fa-handshake",
-      href: "/team",
-    }
   ]
 
   return (
