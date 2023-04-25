@@ -1,8 +1,8 @@
 export default function Privacy() {
 
     return (
-        <div className="p-0 lg:p-6 space-y-8">
-            <h1 className="font-semibold text-2xl text-white/75">Privacy Policy for Orator</h1>
+        <div className="space-y-7 p-0 lg:p-6">
+            <h1 className="font-semibold text-2xl text-white/75">Privacy Policy</h1>
             <p className="text-sm text-white/70 mb-4">Created by Team Orator</p>
             <div className="animateHeader text-white text-opacity-60 mt-5">
                 <p>⊳ To use the Orator bot, you must define the necessary permissions when adding it to your discord server. READ MESSAGES, SEND MESSAGES, EMBED LINKS, ATTACH FILES, READ MESSAGE HISTORY, CONNECT, SPEAK, USE VOICE ACTIVITY, PRIORITY SPEAKER</p>
