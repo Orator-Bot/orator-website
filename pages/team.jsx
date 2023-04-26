@@ -1,3 +1,5 @@
+import { SocialIcon } from 'react-social-icons';
+
 export default function Partners() {
   return (
     <>
@@ -17,7 +19,7 @@ export default function Partners() {
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://images-ext-2.discordapp.net/external/11NrKkl4WmsrJ2QrUUC_pFC4BWUiDeasktXBMCZhFcw/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/712601857473773611/a69db2dbb6500729a3e6aace61340dc8.webp"
+                src="https://images-ext-2.discordapp.net/external/1QrWriPmxd2RUBf7pMRUaDIsKSq_fakhSMAWvpfnmWg/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/712601857473773611/a_a69db2dbb6500729a3e6aace61340dc8.gif"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
@@ -36,7 +38,7 @@ export default function Partners() {
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://arijit.site/cdn/arijit.png"
+                src="https://images-ext-2.discordapp.net/external/cWnd8Biwc0LlX1hn50YkfnTbpk4AQMdp7cNB4jBbZvk/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/842620032960823327/a_fe46e95bec7149bec8c97c5225e88145.gif"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
@@ -54,7 +56,7 @@ export default function Partners() {
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://media.discordapp.net/attachments/922532013817348096/1100416733992456292/rias.webp"
+                src="https://i.imgflip.com/6va3dx.gif"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
@@ -72,11 +74,11 @@ export default function Partners() {
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://images-ext-1.discordapp.net/external/oJg8hgV6bb8NYwuxOMDLAX2F5Xxv8iP_1qnRPS0VnXI/https/i.imgur.com/DnIonjf.jpeg?width=702&height=702"
+                src="https://wallpapers-clan.com/wp-content/uploads/2022/12/hunter-%C3%97-hunter-killua-gif-pfp-1.gif"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
-                  RKN
+                  Rakuna
                 </h1>
                 <div className="flex items-center mt-1">
                   <p className="font-normal font-sm">Side Developer</p>
