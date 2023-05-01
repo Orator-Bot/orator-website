@@ -47,12 +47,12 @@ export default function Premium() {
                 </div>
                 <div className="flex flex-col justify-center text-white">
                     <div className='h-80 w-80 gap-2 bg-[#3166c238] rounded-lg border-2 border-[#3166c238] text-center items-center justify-center flex flex-col space-y-1 hover:scale-105 transition-all'>
-                        <h1 className='text-white font-bold text-xl'>3 Month Plan</h1>
-                        <h2 className='text-white text-lg'><span className='text-gray-400'>US</span> <span className='text-white text-4xl'>7.50</span><span className='text-gray-400 text-4xl'>$</span></h2>
+                        <h1 className='text-white font-bold text-xl'>Yearly Plan</h1>
+                        <h2 className='text-white text-lg'><span className='text-gray-400'>US</span> <span className='text-white text-4xl'>30</span><span className='text-gray-400 text-4xl'>$</span></h2>
                         <h2 className='text-gray-500  text-md'>Billed every 3 months</h2>
                         <h2 className='text-white text-md'>✔ Yearly plan with benifits</h2>
                         <h2 className='text-white text-md'>✔ Transferable to another server</h2>
-                        <a href="#" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the 3 Month plan</a>
+                        <a href="#" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the Yearly plan</a>
                     </div>
                 </div>
             </div>
