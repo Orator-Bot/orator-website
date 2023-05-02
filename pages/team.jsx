@@ -78,7 +78,7 @@ export default function Partners() {
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
-                  Rakuna
+                  RKN
                 </h1>
                 <div className="flex items-center mt-1">
                   <p className="font-normal font-sm">Side Developer</p>
