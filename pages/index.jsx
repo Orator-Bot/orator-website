@@ -91,9 +91,10 @@ export default function Index() {
         <>
           <div className="lg:mx-4 lg:p-8 p-10 lg:py-16 flex items-center justify-center flex-col text-center w-full gap-5">
 
-            <p className="text-2xl text-white font-normal text-center"> <span className="text-blue-500 text-2xl">Orator</span> - Your own text to speech bot 💙</p>
-            <p className="text-md text-gray-500 font-medium max-w-2xl text-center">Easy to use Text To Speech Bot with 50+ Language Support, 
-            restrictable to particular text channels, and default language for the server can be set.</p>
+            <p className="text-2xl text-white font-normal text-center"> <span className="text-blue-500 text-2xl">Orator Premium</span> - take your server to the next level💙</p>
+            <p className="text-md text-gray-500 font-medium max-w-2xl text-center">Orator Premium is a paid subscription service offered by the Orator 
+                TTS bot. Check out the premium version of orator</p>
+            <a href="/premium" className="p-1 bg-blue-600 border-2 border-gray-600 rounded-lg text-gray-200">Premium</a>
           </div>
         </>
       </div>
