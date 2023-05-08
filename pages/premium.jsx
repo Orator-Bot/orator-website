@@ -37,7 +37,7 @@ export default function Premium() {
                 <div className="flex flex-col justify-center text-white">
                     <div className='h-96 w-80 gap-2 bg-[#3166c238] sm:relative sm:bottom-0 lg:relative lg:bottom-4 rounded-lg border-2 border-[#3166c238] text-center items-center justify-center flex flex-col space-y-1 hover:scale-105 transition-all'>
                         <h1 className='text-white font-bold text-xl'>Lifetime Plan</h1>
-                        <h2 className='text-white text-lg'><span className='text-gray-400'>US</span> <span className='text-white text-4xl'>50</span><span className='text-gray-400 text-4xl'>$</span></h2>
+                        <h2 className='text-white text-lg'><span className='text-gray-400'>US</span> <span className='text-white text-4xl'>55</span><span className='text-gray-400 text-4xl'>$</span></h2>
                         <h2 className='text-gray-500 text-md'>Single Payment</h2>
                         <h2 className='text-white text-md'>✔ Biggest savings</h2>
                         <h2 className='text-white text-md'>✔ MOST POPULAR</h2>
