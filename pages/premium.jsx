@@ -31,7 +31,7 @@ export default function Premium() {
                         <h2 className='text-gray-500  text-md'>Billed every month</h2>
                         <h2 className='text-white text-md'>✔ Monthly plan with benifits</h2>
                         <h2 className='text-white text-md'>✔ Transferable to another server</h2>
-                        <a href="#" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the 1 Month plan</a>
+                        <a href="https://discord.gg/93dCvuY4RS" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the 1 Month plan</a>
                     </div>
                 </div>
                 <div className="flex flex-col justify-center text-white">
@@ -42,7 +42,7 @@ export default function Premium() {
                         <h2 className='text-white text-md'>✔ Biggest savings</h2>
                         <h2 className='text-white text-md'>✔ MOST POPULAR</h2>
                         <h2 className='text-white text-md'>✔ Transferable to another server</h2>
-                        <a href="#" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the Lifetime plan</a>
+                        <a href="https://discord.gg/93dCvuY4RS" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the Lifetime plan</a>
                     </div>
                 </div>
                 <div className="flex flex-col justify-center text-white">
@@ -52,7 +52,7 @@ export default function Premium() {
                         <h2 className='text-gray-500  text-md'>Billed once a year</h2>
                         <h2 className='text-white text-md'>✔ Yearly plan with benifits</h2>
                         <h2 className='text-white text-md'>✔ Transferable to another server</h2>
-                        <a href="#" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the Yearly plan</a>
+                        <a href="https://discord.gg/93dCvuY4RS" className='border-2 border-[#3166c2] p-3 relative top-3 rounded-lg hover:bg-[#3166c2] hover:text-white transition-all'>Get the Yearly plan</a>
                     </div>
                 </div>
             </div>

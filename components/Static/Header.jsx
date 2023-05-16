@@ -159,7 +159,7 @@ const Header = ({ $, NavItems }) => {
                                 </Menu.Items>
                             </Transition>
                         </Menu>
-                        <a href="#" className="border-blue-600 border-2 px-3 py-1 rounded-lg text-gray-300 hover:bg-blue-600 transition-all">Login</a>
+                        <a href="/comingsoon" className="border-blue-600 border-2 px-3 py-1 rounded-lg text-gray-300 hover:bg-blue-600 transition-all">Login</a>
                     </div>
                 </div>
             </header>

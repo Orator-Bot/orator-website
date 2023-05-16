@@ -38,7 +38,7 @@ export default function Partners() {
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://images-ext-1.discordapp.net/external/77_4yamKRuZnxv3v-rkW1GHA5s-ny_K3qPl62ONQE9c/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/842620032960823327/a_e2cd4e15bcfd437be310bf0bbf4512d5.gif"
+                src="https://cdn.discordapp.com/avatars/842620032960823327/a_19ffa4a4f6cd263a55c957d56a7dba1a.gif"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
@@ -60,7 +60,7 @@ export default function Partners() {
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
-                  Frezziax
+                  Frezzick
                 </h1>
                 <div className="flex items-center mt-1">
                   <p className="font-normal font-sm">Side Developer</p>
