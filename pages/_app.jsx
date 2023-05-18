@@ -48,17 +48,10 @@ export default function AwardApp({ Component, pageProps }) {
     },
     {
       link: true,
-      name: "Invite",
+      name: "Panel",
       icon: "fal fa-robot",
       activeIcon: "fab fa-robot",
-      href: "https://discord.com/oauth2/authorize?client_id=948637316145102868&permissions=2184535104&scope=applications.commands%20bot",
-    },
-       {
-      link: true,
-      name: "Vote",
-      icon: "fa fa-plus",
-      activeIcon: "fa fa-plus",
-      href: "https://top.gg/bot/948637316145102868/vote",
+      href: "/",
     },
   ]
 

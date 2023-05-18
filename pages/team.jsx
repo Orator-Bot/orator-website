@@ -9,7 +9,7 @@ export default function Partners() {
         </div>
         <h1 className="py-7 animateHeader text-4xl font-extrabold text-center text-white">
           <i className="fal fa-headphones text-blue-400 mr-2" />
-          Team
+          Crew
         </h1>
       </div>
 
@@ -34,7 +34,7 @@ export default function Partners() {
         </div>
 
         <div className="flex flex-col justify-center text-white rounded">
-          <a href="https://discord.com/users/842620032960823327">
+          <a href="https://arijit.site/">
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
@@ -52,11 +52,11 @@ export default function Partners() {
           </a>
         </div>
         <div className="flex flex-col justify-center text-white rounded">
-          <a href="https://discord.com/users/775387817085108235">
+          <a href="https://naz-portfolio.vercel.app">
             <div className="flex-1 gap-x-4 flex items-center bg-gradient-to-b from-neutral-900/80 to-neutral-900/20 p-3 rounded-full">
               <img
                 className="rounded-full h-32 w-32"
-                src="https://www.icegif.com/wp-content/uploads/anime-icegif-16.gif"
+                src="https://media.tenor.com/nmeWhPzpjCUAAAAM/tokyo-ghoul-anime.gif"
               />
               <div>
                 <h1 className="leading-none text-3xl font-bold text-white">
